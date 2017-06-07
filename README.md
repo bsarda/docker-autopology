@@ -1,8 +1,8 @@
 # docker-autopology
 This is the NSX-T Autopology Fling container on CentOS 7.2 1511.  
 
-Sample usage:  
-`docker run -d -p 8443:443 --name autopology --env MANAGER_IP=e1f0nsxman01 --env MANAGER_USERNAME=admin --env MANAGER_PASSWORD='eP@N736w4A88!Me#' --env USERNAME=admin --env PASSWORD=VMware1! --env ESX_PASSWORD=phoeniX1 --env KVM_PASSWORD=P@ssw0rd bsarda/autopology`  
+## Sample usage:  
+`docker run -d -p 8443:443 --name autopology --env MANAGER_IP=nsxman01 --env MANAGER_USERNAME=admin --env MANAGER_PASSWORD='n$xM4n4g3r' --env USERNAME=admin --env PASSWORD=VMware1! --env ESX_PASSWORD=VMware1! --env KVM_PASSWORD=P@ssw0rd bsarda/autopology`  
 
 The parameters must be correct to be able to run.  
 

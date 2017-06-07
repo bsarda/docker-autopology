@@ -1,10 +1,10 @@
 # written by Benoit Sarda
-# base for containers - uses supervisor to start multiple services.
+# Autopology Fling for NSX-T, version 1.0.
 #
 #   bsarda <b.sarda@free.fr>
 #
 FROM centos:centos7.2.1511
-MAINTAINER Benoit Sarda <b.sarda@free.fr>
+LABEL maintainer "b.sarda@free.fr"
 
 EXPOSE 443
 
