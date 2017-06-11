@@ -3,7 +3,8 @@
 #
 #   bsarda <b.sarda@free.fr>
 #
-FROM centos:centos7.2.1511
+#FROM centos:7
+FROM centos:7.2.1511
 LABEL maintainer "b.sarda@free.fr"
 
 EXPOSE 443
